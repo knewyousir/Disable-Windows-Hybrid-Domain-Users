@@ -6,7 +6,7 @@ param(
 
 <#
 #
-# Disable 0Hybrid Users
+# Disable Hybrid Users
 # By Kevin Birk - 10/24/2025
 #
 # The params at the top accept arguments
@@ -197,4 +197,5 @@ foreach ($User in $UserList){
 Start-ADSyncSyncCycle -PolicyType Delta
 
 # Exit the script
+
 Exit 0
